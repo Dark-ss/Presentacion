@@ -1,0 +1,83 @@
+*{
+    padding: 0;/*reset*/
+    margin: 0;
+}
+.presentacion {
+    display: flex;/*alinea los objetos*/
+    align-items: center;/*los coloca en el centro*/
+    margin: 5%;
+    justify-content: space-between;/*Espacio entre contenido*/
+}
+
+body{
+    background-color: rgb(16,0,46);
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;/*Ventana principal*/
+    box-sizing: border-box;/*Ningun elemento puede salir del contenedor padre*/
+}
+
+.texto-destacado{
+    color: rgb(255,87,34);/*destacar texto*/
+}
+
+.titulo-blog{ /*clase titulo*/
+    text-align: center;/*centrar el texto*/
+    margin-right: 190px;
+    font-weight: bold;
+    color: rgb(246,174,45);
+}
+
+.Urgente{/*clase noticias urgentes*/
+    color: red;
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 100px;
+}
+.parrafo{
+    font-size: 25px;/*agrandar la letra*/
+    text-align: center;
+    margin: 80px 250px;
+    margin-right: 20px;
+    width: 50%;
+}
+
+footer p{
+    font-size: 20px;
+    text-align: center;
+}
+a{
+    padding: 20px;/*agrega espacios para agrandar el enlace*/
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: aqua;
+    text-decoration: none;/*quita el subrayado del enlace*/
+    margin: 20px;
+}
+img{
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+.container{
+    margin-top: 50px;
+    margin-right: 9%;
+    text-align: center;
+}
+
+.imagen{
+    margin-top: 50px;
+    margin-right: 5%;
+    text-align: center;
+}
+
+footer p{
+    color: blanchedalmond;
+    margin-top: 50px;
+    margin-right: 210px;
+}

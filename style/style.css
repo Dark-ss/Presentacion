@@ -237,6 +237,14 @@ footer {
         width: 100%; /* Asegúrate de que el perfil ocupe el ancho completo */
     }
 
+    .imagen_about{
+        width: 50%;
+    }
+
+    .presentacion__imagen{
+        width: 50%;
+    }
+
     .presentacion__enlaces__link{
         width: 50%;
         display: flex;

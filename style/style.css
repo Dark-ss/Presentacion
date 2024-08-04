@@ -179,7 +179,7 @@ footer {
     font-size: 1.5rem;
     font-family: var(--fuente-Montserrat);
     background-color: var(--color-terciario);
-    padding: 24px;
+    padding: 2% 0% 2% 0%;
     color: var(--color-fuente);
 }
 
@@ -215,7 +215,7 @@ footer {
 @media (max-width: 624px) {
 
     header{
-        padding: 10% 0% 0% 18%;
+        padding: 10% 0% 0% 18%;/*centrar*/
     }
 
     .presentacion {
@@ -254,5 +254,6 @@ footer {
     }
     footer {
         font-size: 1rem; /* Ajusta el tamaño de la fuente para pantallas pequeñas */
+        padding: ;
     }
 }

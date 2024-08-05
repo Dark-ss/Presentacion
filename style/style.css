@@ -6,6 +6,7 @@
     --color-terciario: rgb(228, 95, 43);
     --color-fuente: #F6F6F6;
     --color-hover: rgba(29, 3, 78, 0.87);
+    --color-button: rgb(114, 250, 147);
 
     --fuente-krona: "Krona One", sans-serif;
     --fuente-Montserrat: "Montserrat", sans-serif;
@@ -173,6 +174,32 @@ ul li::marker{/*modificar los circulos*/
     margin: 2% 0% 64% 0%;
 }
 
+.formulario{
+    width: 40%;
+    box-sizing: border-box;
+    margin: auto;
+    font-family: var(--fuente-Montserrat);
+    background-color: var(--color-fuente);
+    color: #000000;
+    padding: 5%;
+    border-radius: 5px;
+}
+
+.box-send{
+    width: 100%;
+    margin-bottom: 5%;
+    padding: 2%;
+}
+
+.button{
+    width: 100%;
+    background-color: var(--color-secundario);
+    border:none;
+    padding: 5%;
+    font-size: 16px;
+    font-family: var(--fuente-Montserrat);
+}
+
 footer {
     width: 100%;
     text-align: center;
@@ -252,8 +279,8 @@ footer {
         justify-content: center;
         font-size: 0.6rem;
     }
+
     footer {
         font-size: 1rem; /* Ajusta el tamaño de la fuente para pantallas pequeñas */
-        padding: ;
     }
 }

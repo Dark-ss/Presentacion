@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');/*fuente letra*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/*fuente letra*/
 
-:root{ /*variables*/
+:root {
+    /*variables*/
     --color-primario: rgb(16, 0, 46);
     --color-secundario: rgb(246, 196, 69);
     --color-terciario: rgb(228, 95, 43);
@@ -13,7 +15,8 @@
 }
 
 * {
-    padding: 0;/*reset*/
+    padding: 0;
+    /*reset*/
     margin: 0;
 }
 
@@ -21,18 +24,20 @@ body {
     background-color: var(--color-primario);
     box-sizing: border-box;
     color: var(--color-fuente);
+    position: relative;
 }
 
-header{
-    padding: 2% 0% 0% 14%;/*ajusta top,right,bootoom,left*/
+header {
+    padding: 2% 0% 0% 14%;
+    /*ajusta top,right,bootoom,left*/
 }
 
-.encabezado__menu{
+.encabezado__menu {
     display: flex;
     gap: 40px;
 }
 
-.encabezado__menu__link{
+.encabezado__menu__link {
     text-decoration: none;
     font-family: var(--fuente-krona);
     font-size: 1.25rem;
@@ -40,27 +45,32 @@ header{
     color: var(--color-secundario);
 }
 
-.encabezado__menu__link:hover{
+.encabezado__menu__link:hover {
     color: var(--color-terciario);
 }
 
-.presentacion__imagen{
+.presentacion__imagen {
     width: 50%;
     margin-right: 20%;
     border-radius: 20px;
     margin-bottom: 7%;
-    transition: transform 0.5s ease;/*Tiempo transición*/
+    transition: transform 0.5s ease;
+    /*Tiempo transición*/
 }
 
-.presentacion__imagen:hover{
-    transform: scale(1.2);/*escala imagen*/
+.presentacion__imagen:hover {
+    transform: scale(1.2);
+    /*escala imagen*/
 }
 
 .presentacion {
-    display: flex;/*alinear-element*/
-    align-items: center;/*alinear centro*/
+    display: flex;
+    /*alinear-element*/
+    align-items: center;
+    /*alinear centro*/
     padding: 5% 14%;
-    justify-content: space-between;/*espacio entre elementos*/
+    justify-content: space-between;
+    /*espacio entre elementos*/
     gap: 82px;
 }
 
@@ -68,7 +78,8 @@ header{
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 40px;/*tamaño espacio filas*/
+    gap: 40px;
+    /*tamaño espacio filas*/
 }
 
 .presentacion__contenido__titulo {
@@ -84,7 +95,7 @@ header{
     color: var(--color-terciario);
 }
 
-.texto-destacado-universidad{
+.texto-destacado-universidad {
     color: var(--color-secundario);
 }
 
@@ -114,9 +125,11 @@ header{
     /*height: 50px;*/
     color: var(--color-fuente);
     text-align: center;
-    padding: 15px 0;/*espacio vertical*/
+    padding: 15px 0;
+    /*espacio vertical*/
     font-size: 0.875rem;
-    font-weight: 600;/*anchura texto*/
+    font-weight: 600;
+    /*anchura texto*/
     border-radius: 10px;
     font-family: var(--fuente-Montserrat);
     text-decoration: none;
@@ -134,7 +147,7 @@ header{
     transform: scale(1.2);
 }
 
-.presentacion__contenido__estudios{
+.presentacion__contenido__estudios {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -142,7 +155,8 @@ header{
     font-family: var(--fuente-Montserrat);
 }
 
-ul li::marker{/*modificar los circulos*/
+ul li::marker {
+    /*modificar los circulos*/
     color: var(--color-terciario);
 }
 
@@ -150,18 +164,20 @@ ul li::marker{/*modificar los circulos*/
     font-size: 1.875rem;
 }
 
-
-.perfil__imagen{
+.perfil__imagen {
     width: 50%;
     height: 800px;
     border-radius: 20px;
     margin-bottom: 10%;
-    transition: transform 0.5s ease;/*Tiempo transición*/
+    transition: transform 0.5s ease;
+    /*Tiempo transición*/
 }
-.imagen_about{
+
+.imagen_about {
     width: 70%;
 }
-.perfil{
+
+.perfil {
     width: 50%;
     margin: 0% 0% 22%;
     display: flex;
@@ -170,11 +186,11 @@ ul li::marker{/*modificar los circulos*/
     gap: 2px;
 }
 
-.descarga{
+.descarga {
     margin: 2% 0% 64% 0%;
 }
 
-.formulario{
+.formulario {
     width: 40%;
     box-sizing: border-box;
     margin: auto;
@@ -185,55 +201,63 @@ ul li::marker{/*modificar los circulos*/
     border-radius: 5px;
 }
 
-.box-send{
+.box-send {
     width: 100%;
     margin-bottom: 5%;
     padding: 2%;
 }
 
-.button{
+.button {
     width: 100%;
     background-color: var(--color-secundario);
-    border:none;
+    border: none;
     padding: 5%;
     font-size: 16px;
     font-family: var(--fuente-Montserrat);
 }
 
-footer {
+.footer-main {
     width: 100%;
     text-align: center;
     font-size: 1.5rem;
     font-family: var(--fuente-Montserrat);
     background-color: var(--color-terciario);
-    padding: 2% 0% 2% 0%;
+    padding: 2%;
     color: var(--color-fuente);
 }
 
-@media (max-width: 1200px){
+.footer-comentarios {
+    text-align: center;
+    font-family: var(--fuente-Montserrat);
+    background-color: var(--color-terciario);
+    padding: 2%;
+    font-size: 1.5rem;
+}
 
-    header{
+@media (max-width: 1200px) {
+
+    header {
         padding: 10% 0% 0% 32%;
     }
 
-    .presentacion{
+    .presentacion {
         flex-direction: column-reverse;
         padding: 5%;
     }
 
-    .presentacion__contenido{
+    .presentacion__contenido {
         width: auto;
     }
 
-    .presentacion__imagen{
+    .presentacion__imagen {
         margin-right: 2%;
     }
 
-    .descarga{
+    .descarga {
         margin: 2%;
     }
 
-    .perfil{
+    .perfil {
         margin: 0%;
     }
 
@@ -241,13 +265,24 @@ footer {
 
 @media (max-width: 624px) {
 
-    header{
-        padding: 10% 0% 0% 18%;/*centrar*/
+    body{
+        min-height: 100vh;
+        position: relative;
+    }
+
+    header {
+        padding: 10% 0% 0% 4%;
+        /*centrar*/
+    }
+
+    .encabezado__menu__link {
+        font-size: 0.9rem;
     }
 
     .presentacion {
         padding: 5%;
-        gap: 20px; /* Reduce el espacio entre los elementos */
+        gap: 20px;
+        /* Reduce el espacio entre los elementos */
     }
 
     .presentacion__contenido {
@@ -255,24 +290,26 @@ footer {
     }
 
     .presentacion__imagen {
-        width: 100%; /* Asegúrate de que la imagen no se desborde */
+        width: 100%;
+        /* Asegúrate de que la imagen no se desborde */
         margin-right: 0;
     }
 
     .perfil {
         margin: 0;
-        width: 100%; /* Asegúrate de que el perfil ocupe el ancho completo */
+        width: 100%;
+        /* Asegúrate de que el perfil ocupe el ancho completo */
     }
 
-    .imagen_about{
+    .imagen_about {
         width: 50%;
     }
 
-    .presentacion__imagen{
+    .presentacion__imagen {
         width: 50%;
     }
 
-    .presentacion__enlaces__link{
+    .presentacion__enlaces__link {
         width: 50%;
         display: flex;
         flex-direction: column;
@@ -280,7 +317,19 @@ footer {
         font-size: 0.6rem;
     }
 
-    footer {
-        font-size: 1rem; /* Ajusta el tamaño de la fuente para pantallas pequeñas */
+    .footer-main {
+        font-size: 1rem;
+        /* Ajusta el tamaño de la fuente para pantallas pequeñas */
+    }
+    .footer-comentarios{
+        padding: 0%;
+        font-size: 1rem;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
